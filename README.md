@@ -15,7 +15,7 @@ To recreate this project with the same configuration:
 
 ```sh
 # recreate this project
-npx sv@1.2.0 create --template minimal --types ts --add prettier eslint vitest="usages:unit,component" playwright="demo:yes" tailwindcss="plugins:typography,forms" enhanced-img sveltekit-adapter="adapter:auto" drizzle="database:postgresql+postgresql:postgres.js+docker:no" better-auth="demo:password" mdsvex paraglide="languageTags:en, nl+demo:yes" storybook ai-tools="ide:claude-code,cursor,gemini,opencode,vscode,other+delivery:plugin+tools:mcp,svelte-code-writer,svelte-core-bestpractices,svelte-file-editor+mcpSetup:remote" --install npm ./
+npx sv@1.2.0 create --template minimal --types ts --add prettier eslint vitest="usages:unit,component" playwright="demo:yes" tailwindcss="plugins:typography,forms" enhanced-img sveltekit-adapter="adapter:auto" mdsvex paraglide="languageTags:en, nl+demo:yes" storybook ai-tools="ide:claude-code,cursor,gemini,opencode,vscode,other+delivery:plugin+tools:mcp,svelte-code-writer,svelte-core-bestpractices,svelte-file-editor+mcpSetup:remote" --install npm ./
 ```
 
 ## Adding features
